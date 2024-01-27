@@ -8,8 +8,8 @@ const CartProvider = ({children}) => {
     mode="payment"
     cartMode="client-only"
     stripe="pk_test_51OcgH5Ez0mGeizVoGsEgjaX6nkS6QkzoiOYIj83IWsZjwbpnAuD6o2M2KtvsvkqxDiYee0rjCuMNIYpDC3mPvc4G00oxYQeazT"
-    successUrl="http://localhost:3000/stripe/success"
-    cancelUrl="http://localhost:3000/stripe/error"
+    successUrl="https://e-commerce-website-brown.vercel.app/stripe/success"
+    cancelUrl="https://e-commerce-website-brown.vercel.app/stripe/error"
     language="en-US"
     currency="USD"
     billingAddressCollection={true}
