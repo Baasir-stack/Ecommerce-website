@@ -7,7 +7,7 @@ const CartProvider = ({children}) => {
     <CProvider
     mode="payment"
     cartMode="client-only"
-    stripe={process.env.NEXT_PUBLIC_STRIPE_KEY}
+    stripe="pk_test_51OcgH5Ez0mGeizVoGsEgjaX6nkS6QkzoiOYIj83IWsZjwbpnAuD6o2M2KtvsvkqxDiYee0rjCuMNIYpDC3mPvc4G00oxYQeazT"
     successUrl="http://localhost:3000/stripe/success"
     cancelUrl="http://localhost:3000/stripe/error"
     language="en-US"
