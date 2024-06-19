@@ -18,7 +18,7 @@ const CartSideBar = () => {
     <Sheet open={shouldDisplayCart} onOpenChange={() => handleCartClick()}>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className='text-left mb-12'>My Shopping Cart({cartCount})</SheetTitle>
+          <SheetTitle className='text-left'>My Shopping Cart({cartCount})</SheetTitle>
         </SheetHeader>
         <>
         {cartCount === 0 ? 
